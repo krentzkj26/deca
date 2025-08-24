@@ -633,3 +633,8 @@ button:focus {
   font-size: 0.9rem;
   color: #444;
 }
+.transcript-body p span.on-screen-text {
+  display: block;          /* Forces line break */
+  font-style: italic;      /* Italicize to visually differentiate */
+  color: #0055A4;          /* DECA blue for branding */
+  margin-left: 1em;        /* Slight indent for readability */
